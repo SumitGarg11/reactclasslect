@@ -1,0 +1,24 @@
+/* Styles for TableComponent */
+.table-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .data-table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  

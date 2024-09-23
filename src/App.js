@@ -4,6 +4,7 @@ import Items from "./components/Items";
 import Multilple from "./components/Multilple";
 import Name from "./components/Name";
 import Parent from "./components/Parent";
+import PropsTy from "./components/PropsTy";
 import ReactCreate from "./components/ReactCreate";
 import Sum from "./components/Sum";
 import Teacher from "./components/Teacher";
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello </h1>
-      <Items />
+      {/* <Items />
       <Name />
       <Parent />
       <Age />
@@ -29,7 +30,9 @@ function App() {
          email= {email}
          profilePicture = {profilePicture}
        />
-       <Employe />
+       <Employe /> */}
+      <PropsTy/>
+       
     </div>
   );
 }

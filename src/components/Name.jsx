@@ -16,4 +16,4 @@ const Name = () => {
         </div>
     )
 }
-export default Name ;
+export default Name;
